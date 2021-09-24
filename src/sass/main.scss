@@ -1,7 +1,28 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(14, 51, 82);
+  background-color: rgb(154, 212, 203);
+  padding: 15px;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
+}
