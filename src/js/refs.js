@@ -1,6 +1,6 @@
 const refs = {
-    input: document.getElementById('js-input'),
-    list: document.getElementById('js-list'),
-    infoBox: document.getElementById('js-country-info')
+    input: document.querySelector('#js-input'),
+    list: document.querySelector('.js-list'),
+    infoBox: document.querySelector('.js-country-info')
 }
 export default refs;

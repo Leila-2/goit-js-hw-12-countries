@@ -15,7 +15,7 @@ import refs from './js/refs'
 refs.input.addEventListener('input', debounce(onSearch, 500));
 
 function onSearch() {
-    //inputCleaner();
+    inputCleaner();
     const searchQuery = refs.input.value.trim()
     fetchCountry(searchQuery).then(country => {
         if (country.length > 10) {
